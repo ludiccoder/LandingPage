@@ -1,0 +1,30 @@
+.hero, .header, .footer  {
+background-color: #1f2937;
+display: flex;    
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+
+}
+.link1, .link2, .link3 {
+    color: white;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo {
+    padding-right: 50%;
+    justify-content: flex-start;
+
+}
+.hero {
+    display: flex;
+    flex-direction: ro;
+    justify-content: center;
+}
+
+.image {
+}
+
