@@ -1,3 +1,7 @@
+/* Universal
+Body css
+*/
+
 .hero, .header, .footer  {
 background-color: #1f2937;
 display: flex;    
@@ -19,12 +23,47 @@ display: flex;
     justify-content: flex-start;
 
 }
+
+/* hero*/
+
 .hero {
+    justify-content: space-evenly;
+}
+.note {
     display: flex;
-    flex-direction: ro;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .image {
+    float: left;
 }
 
+/*projects*/
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.project-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.project-link1, .project-link2,.project-link3,.project-link4 {
+    border-radius: 25px;
+    border: 2px solid #1F2937;
+    padding: 20px;
+    width: 100px;
+    height: 75px;
+    align-content: space-around;
+  }
+
+  /*quote*/
+
+  
