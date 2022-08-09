@@ -66,4 +66,41 @@ display: flex;
 
   /*quote*/
 
-  
+  .quote {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-grow: 1 2 1;
+    padding-top: 50px;
+    background-color: #E5E7EB;
+    margin: 50px 0px 50px;
+}
+
+.calltoaction {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    padding: 20px;
+    width: 650px;
+    height: 75px;
+    align-content: center;
+    justify-content: space-around;
+    font-size: large;
+    color: white;
+    background-color: #3882F6;
+    flex-grow: 3 1;
+    margin: 50px 0px 50px 50px;
+}
+
+.button {
+   margin-top: 25px; 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+    
+}
